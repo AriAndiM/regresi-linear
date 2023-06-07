@@ -7,6 +7,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_percentage_error
 
+st.markdown('<h1 style = "text-align: center;"> Prediksi Pengunjung Wisata Pesarean Syaichona Kholil </h1>', unsafe_allow_html = True)
 logo = Image.open('makam.jpg')
 st.image(logo, caption='')
 
