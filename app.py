@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_percentage_error
 
 with st.sidebar:
-    choose = option_menu("Cardio Predict", ["Home", "Dataset", "Predict", "Help"],
+    choose = option_menu("Prediksi Pengunjung", ["Home", "Dataset", "Predict", "Help"],
                              icons=['house', 'table', 'boxes','check2-circle'],
                              menu_icon="app-indicator", default_index=0,
                              styles={
