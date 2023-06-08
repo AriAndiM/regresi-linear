@@ -34,8 +34,8 @@ if choose=='Dataset':
 
 if choose=='Predict':
     st.markdown('<h1 style = "text-align: center;"> Prediksi jumlah pengunjung wisata pesarean Syaichona Kholil di Bangkalan</h1>', unsafe_allow_html = True)
-    img_mape = Image.open('plot_mape.png')
-    st.image(img_mape, caption='')
+    logo = Image.open('plot_mape.png')
+    st.image(logo, caption='')
     pilih_bulan = st.selectbox(
         'Pilih Bulan',
         ('Januari', 'Februari', 'Maret' , 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'))
